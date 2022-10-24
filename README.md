@@ -28,11 +28,16 @@ Note: If you still have the old code alias in your .bash_profile (or equivalent)
 Open a terminal window with the keyboard shortcut (ctrl + `) or by navigating to the terminal drop-down menu 
 
 
-
+```
 
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-
-
+code --install-extension
+code --install-extension
+code --install-extension
+code --install-extension
+code --install-extension
+code --install-extension
+```
 
 
 
