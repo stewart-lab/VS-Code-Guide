@@ -13,33 +13,41 @@
 
 Now would be the time to change the color scheme using the first rectangle of the startup menu. Everything else, however, we will leave for later.
 
+## Extensions
 
-Open the Command Palette (Cmd+Shift+P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command.
-macOS shell commands
+- Open the Command Palette (Cmd+Shift+P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command.
 
-Restart the terminal for the new $PATH value to take effect. You'll be able to type 'code .' in any folder to start editing files in that folder.
-Note: If you still have the old code alias in your .bash_profile (or equivalent) from an early VS Code version, remove it and replace it by executing the Shell Command: Install 'code' command in PATH command.
+![Screenshot 2022-10-25 at 9 25 19 AM](https://user-images.githubusercontent.com/95723801/197800498-b692e413-5634-4fdd-bd48-07e368350afc.png)
 
+'code' will now be recognized as a shell command in both your VS Code terminal and your terminal application. This will allow us to start the application in the future from the terminal as well as streamline our extension standards. 
 
+- Open a terminal window with the keyboard shortcut (ctrl + ~) or by navigating to the terminal drop-down menu 
+- Copy and paste the code block below into the command line. This is the "Stewart Bioinformatics Group Starter Pack"  
 
+** This list is subject to change
+```
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension ms-python.python
+code --install-extension ms-python.black-formatter
+code --install-extension ms-python.flake8
+
+```
+- To double check the extensions have installed, navigate to the extesnions tab located in the left-hand menu ![Screenshot 2022-10-25 at 9 45 12 AM](https://user-images.githubusercontent.com/95723801/197805662-4192212e-7120-4ac5-b654-aae1b09d8de3.png)
+
+- You will notice that there are more than four extensions installed! That is because python and the remote-dev extensions are actually bundles of extensions!
 
 ## Establishing Remote Connection
 
-Open a terminal window with the keyboard shortcut (ctrl + `) or by navigating to the terminal drop-down menu 
+- Open the Command Palette (Cmd+Shift+P) and type "remote-ssh". You will have two options to ssh in. One being the current window and the other being a new one. I recommend the former as multiple windows can be tougher to manage. 
 
+![Screenshot 2022-10-25 at 9 47 15 AM](https://user-images.githubusercontent.com/95723801/197806157-81e7221b-39ec-457c-b09d-a2fe4c432a18.png)
 
-```
-
-code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-code --install-extension
-code --install-extension
-code --install-extension
-code --install-extension
-code --install-extension
-code --install-extension
-```
-
-
+- In the next menu, select "Add new SSH Host.." and type in the ssh command to connect to the remote dev space of your choice.
+- When asked what config file to update, select the one in your user path. This will be the last time you type an ssh command!
+- Open the Command Palette again (Cmd+Shift+P) and type "remote-ssh", now your ssh target will be saved and you can simply hit enter and type in your password. 
+- To confirm you are connected, in the bottom left of your VS Code window, you should see confirmation of your ssh target.
+![Screenshot 2022-10-25 at 9 55 10 AM](https://user-images.githubusercontent.com/95723801/197808180-8fe2f023-42f2-4106-bb8f-5cb688fc0df8.png)
+ 
 
 # Keyboard Shortcuts
 
