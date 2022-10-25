@@ -32,7 +32,8 @@ code --install-extension ms-python.black-formatter
 code --install-extension ms-python.flake8
 
 ```
-- To double check the extensions have installed, navigate to the extesnions tab located in the left-hand menu ![Screenshot 2022-10-25 at 9 45 12 AM](https://user-images.githubusercontent.com/95723801/197805662-4192212e-7120-4ac5-b654-aae1b09d8de3.png)
+- To double check the extensions have installed, navigate to the extesnions tab located in the left-hand menu 
+![Screenshot 2022-10-25 at 9 45 12 AM](https://user-images.githubusercontent.com/95723801/197805662-4192212e-7120-4ac5-b654-aae1b09d8de3.png)
 
 - You will notice that there are more than four extensions installed! That is because python and the remote-dev extensions are actually bundles of extensions!
 
@@ -47,7 +48,21 @@ code --install-extension ms-python.flake8
 - Open the Command Palette again (Cmd+Shift+P) and type "remote-ssh", now your ssh target will be saved and you can simply hit enter and type in your password. 
 - To confirm you are connected, in the bottom left of your VS Code window, you should see confirmation of your ssh target.
 ![Screenshot 2022-10-25 at 9 55 10 AM](https://user-images.githubusercontent.com/95723801/197808180-8fe2f023-42f2-4106-bb8f-5cb688fc0df8.png)
+
+- If you decided to ssh into the mir-49 machine, you'll see that there is a multitude of extensions installed already. It is important to understand the extensions we installed are only enabled locally. To insure all of our standard extensions are in our remote workspace, navigate back to the extension tab.
+- You will see two rows: local and ssh. Navigate to the ssh row and hover over the cloud button. It says "Install local extensions in <remote workspace>" this is a valuable button to be aware of if you are traversing different remote spaces. 
+![Screenshot 2022-10-25 at 10 06 18 AM](https://user-images.githubusercontent.com/95723801/197811000-cbe031f2-fa94-4cd8-914b-43c2fc5cd6c3.png)
+
+## File editing and management
+
+- VS Code has a very robust file management system. Using the keyboard shortcut (CMD + O), the command pallette turns into your working directory where you can move both vertically and horizontally with ease. 
  
+- NOTE: auto-complete is initiated with the ENTER button instead of TAB 
+
+- As an exercise, navigate to my (jfreeman) home directory and find the VS Code subdirectory. Press 'OK' to 
+ 
+
+ ## Source Control
 
 # Keyboard Shortcuts
 
