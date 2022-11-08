@@ -1,5 +1,7 @@
 # Step-by-step guide
 
+[Installation](#Installation)
+
 ## Installation
 - Navigate to VS Code's download tree → https://code.visualstudio.com/Download
 - Open the browser's download list and locate the downloaded app or archive.
