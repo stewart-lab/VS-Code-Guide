@@ -123,6 +123,14 @@ source vs_code_standard/bin/activate
  
 # Keyboard
 
+- (CMD K + CMD S) Brings up keyboard shortcuts in VS Code
+
+- Some useful ones:
+ - (CMD K + Z) Zen Mode
+ - (CMD + B) Toggle sidebar
+ - (CMD + SHIFT + P) Command Pallette
+ - (CMD + O) Open
+ - (CNTRL + `) Toggle terminal
 
 
 
