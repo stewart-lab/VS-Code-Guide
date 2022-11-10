@@ -2,7 +2,8 @@
 
 [Installation](#Installation)
 [Extensions](#Extensions)
-[Establishing Remote Connection] (#Establishing Remote Connection)
+[Establishing Remote Connection](#Establishing Remote Connection)
+
 
 ## Installation
 - Navigate to VS Code's download tree → https://code.visualstudio.com/Download
@@ -57,7 +58,7 @@ code --install-extension ms-python.flake8
 - You will see two rows: local and ssh. Navigate to the ssh row and hover over the cloud button. It says "Install local extensions in <remote workspace>" this is a valuable button to be aware of if you are traversing different remote spaces. 
 ![Screenshot 2022-10-25 at 10 06 18 AM](https://user-images.githubusercontent.com/95723801/197811000-cbe031f2-fa94-4cd8-914b-43c2fc5cd6c3.png)
 
-## File editing and management
+ ## File editing and management
 
 - VS Code has a very robust file management system. Using the keyboard shortcut (CMD + O), the command pallette turns into your working directory where you can move both vertically and horizontally with ease. 
  
