@@ -1,11 +1,11 @@
 # Step-by-step guide
 
 [Installation](#Installation) <br> 
-[Extensions](#Extensions). 
-[Remote](#Remote). 
-[Files](#Files). 
-[Git](#Git). 
-[Keyboard](#Keyboard). 
+[Extensions](#Extensions) <br> 
+[Remote](#Remote) <br>
+[Files](#Files) <br> 
+[Git](#Git) <br> 
+[Keyboard](#Keyboard) <br> 
 
 
 ## Installation
