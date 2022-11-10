@@ -2,7 +2,10 @@
 
 [Installation](#Installation)
 [Extensions](#Extensions)
-[Establishing Remote Connection](#Establishing Remote Connection)
+[Remote](#Remote)
+[Files](#Files)
+[Git](#Git)
+[Keyboard](#Keyboard)
 
 
 ## Installation
@@ -42,7 +45,7 @@ code --install-extension ms-python.flake8
 
 - You will notice that there are more than four extensions installed! That is because python and the remote-dev extensions are actually bundles of extensions!
 
-## Establishing Remote Connection
+## Remote
 
 - Open the Command Palette (Cmd+Shift+P) and type "remote-ssh". You will have two options to ssh in. One being the current window and the other being a new one. I recommend the former as multiple windows can be tougher to manage. 
 
@@ -58,7 +61,7 @@ code --install-extension ms-python.flake8
 - You will see two rows: local and ssh. Navigate to the ssh row and hover over the cloud button. It says "Install local extensions in <remote workspace>" this is a valuable button to be aware of if you are traversing different remote spaces. 
 ![Screenshot 2022-10-25 at 10 06 18 AM](https://user-images.githubusercontent.com/95723801/197811000-cbe031f2-fa94-4cd8-914b-43c2fc5cd6c3.png)
 
- ## File editing and management
+ ## Files
 
 - VS Code has a very robust file management system. Using the keyboard shortcut (CMD + O), the command pallette turns into your working directory where you can move both vertically and horizontally with ease. 
  
@@ -96,7 +99,7 @@ source vs_code_standard/bin/activate
 - Drag the file to the far right of the editor space for side to side comparsion. If you would rather toggle through different files, open your new file and use (CNTRL + TAB) to cycle through. 
  
 
-## Source Control
+## Git
 
 - Lets connect our GitHub account to VS Code. Navigate to the bottom left of the screen to the user icon. Click the "sign-in to Sync settings" button. 
  
@@ -118,7 +121,7 @@ source vs_code_standard/bin/activate
 
  
  
-# Keyboard Shortcuts ( CMD K + CMD S)
+# Keyboard
 
 
 
