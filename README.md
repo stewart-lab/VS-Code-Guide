@@ -61,8 +61,31 @@ code --install-extension ms-python.flake8
  
 - NOTE: auto-complete is initiated with the ENTER button instead of TAB 
 
-- As an exercise, navigate to my (jfreeman) home directory and find the VS Code subdirectory. Press 'OK' to 
+- As an exercise, navigate to my (jfreeman) home directory and find the VS Code subdirectory. Press 'OK' to initialize yourself into the subdirectory. You can check your success by confirming your location on the explorer tab in the left-hand menu.
  
+![Screenshot 2022-11-10 at 9 53 00 AM](https://user-images.githubusercontent.com/95723801/201142519-d8a14b2c-81b0-452e-98c7-18e33314035c.png)
+
+- Now we are going to test the extensions with a "hello world" example  
+
+- For this tutorial we are going to use a VS CODE pyvenv that was configured in this directory. From the top level of "VS_Code" run 
+
+```  
+source vs_code_standard/bin/activate
+
+```
+- This activates a python 3.9 virtual environment that stores an executable interpreter for linting and formatting
+
+- Navigate to the vscode.py file, and in the bottom right of the VSCode window, you will see "Select interpreter"  
+
+![Screenshot 2022-11-10 at 10 42 39 AM](https://user-images.githubusercontent.com/95723801/201155129-9def4098-5b38-4645-9c31-8a42d825f71c.png)
+
+- Enter the path "/vs_code_standard/bin/python" and upon completion, the "Select interpreter" will turn into 
+![Screenshot 2022-11-10 at 10 47 16 AM](https://user-images.githubusercontent.com/95723801/201156122-b3208d32-4f35-4bc5-9eff-9328ed397b81.png)
+
+- Setting default interpreters is very helpful as different projects require different envs. VS Code has User, Remote, and Workspace specific settings to control what is interpreting your python code. Lets get used to changing our settings. 
+
+## Settings
+
 
  ## Source Control
 
