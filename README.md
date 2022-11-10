@@ -1,6 +1,6 @@
 # Step-by-step guide
 
-[Installation](#Installation). 
+[Installation](#Installation) <br> 
 [Extensions](#Extensions). 
 [Remote](#Remote). 
 [Files](#Files). 
