@@ -67,7 +67,7 @@ code --install-extension ms-python.flake8
 
 - Now we are going to test the extensions with a "hello world" example  
 
-- For this tutorial we are going to use a VS CODE pyvenv that was configured in this directory. From the top level of "VS_Code" run 
+- For this tutorial we are going to use a VS CODE pyvenv that was configured in this directory. From the top level of "VS_Code" run the code below in the terminal
 
 ```  
 source vs_code_standard/bin/activate
@@ -75,21 +75,47 @@ source vs_code_standard/bin/activate
 ```
 - This activates a python 3.9 virtual environment that stores an executable interpreter for linting and formatting
 
-- Navigate to the vscode.py file, and in the bottom right of the VSCode window, you will see "Select interpreter"  
+- Navigate to the vscode.py file, and in the bottom right of the VSCode window, you will see "Select interpreter" - The bottom right of the window will always contain information specific to file type. Becasue this is a ".py" file, VS Code will provide you with python specific tools (our extensions and interpreter)  
 
 ![Screenshot 2022-11-10 at 10 42 39 AM](https://user-images.githubusercontent.com/95723801/201155129-9def4098-5b38-4645-9c31-8a42d825f71c.png)
 
 - Enter the path "/vs_code_standard/bin/python" and upon completion, the "Select interpreter" will turn into 
 ![Screenshot 2022-11-10 at 10 47 16 AM](https://user-images.githubusercontent.com/95723801/201156122-b3208d32-4f35-4bc5-9eff-9328ed397b81.png)
 
-- Setting default interpreters is very helpful as different projects require different envs. VS Code has User, Remote, and Workspace specific settings to control what is interpreting your python code. Lets get used to changing our settings. 
+- Setting default interpreters is very helpful as different projects require different envs. VS Code has User, Remote, and Workspace specific settings to control what is interpreting your python code. Settings are located in the bottom left through the cog icon or (CMD ,) You are welcome to set the path above to your deafult interpreter, but I recommend something project specific for a permanent solution. 
+ 
+- You should be able to write sloppy code in the vscode.py file and the linting and formatting will be taken care of! Easest example: print( "hello world") 
+ 
+- VS Code supports side by side editing. Create a file using the explorer tab's button when hovered over the top level and add a ".py" at the end
+ 
+![Screenshot 2022-11-10 at 10 47 16 AM](https://user-images.githubusercontent.com/95723801/201191108-0028aa58-ba1d-48a2-979c-f9a3ba5f79c6.png)
 
-## Settings
+- Drag the file to the far right of the editor space for side to side comparsion. If you would rather toggle through different files, open your new file and use (CNTRL + TAB) to cycle through. 
+ 
 
+## Source Control
 
- ## Source Control
+- Lets connect our GitHub account to VS Code. Navigate to the bottom left of the screen to the user icon. Click the "sign-in to Sync settings" button. 
+ 
+- You will be prompted to sign in to Microsoft or GitHub in the command pallete
+![Screenshot 2022-11-10 at 1 49 29 PM](https://user-images.githubusercontent.com/95723801/201192201-cbfb7405-a25e-4b1b-8b49-5d83796e879c.png)
 
-# Keyboard Shortcuts
+- After following the prompts, you should navigate to the source control tab in the left hand menu ![Screenshot 2022-11-10 at 1 50 18 PM](https://user-images.githubusercontent.com/95723801/201192359-8c8dfef0-fae7-499f-90c2-a3ba8e4e377b.png)
+
+- Now we can intialize repos similar to the "git init" command. 
+ 
+- To avoid git from tracking large, unwanted files, initiliaztion should occur in project specific subdirectories
+ 
+- Now, in the command pallette (CMD + SHIFT + P), we can type "git" and the different source control options are accesible from the command pallette.
+ 
+- Read more: https://code.visualstudio.com/docs/sourcecontrol/overview
+ 
+ 
+ 
+
+ 
+ 
+# Keyboard Shortcuts ( CMD K + CMD S)
 
 
 
