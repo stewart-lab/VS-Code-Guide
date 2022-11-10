@@ -1,6 +1,8 @@
 # Step-by-step guide
 
 [Installation](#Installation)
+[Extensions](#Extensions)
+[Establishing Remote Connection] (#Establishing Remote Connection)
 
 ## Installation
 - Navigate to VS Code's download tree → https://code.visualstudio.com/Download
